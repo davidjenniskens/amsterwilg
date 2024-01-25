@@ -1,0 +1,234 @@
+img {
+    width: 50%;
+}
+
+.Logonaam {
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 228, 200);
+    margin: 4%;
+}
+
+ul{
+    padding: 0%;
+}
+
+li {
+    list-style-type: none;
+    font-size: 5em;
+    font-weight: 700;
+    background-color: rgb(168, 218, 255);
+    margin: 0.25em 0em;
+    border-radius: 0.1em;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    background-color: rgb(8, 76, 96);
+    border-radius: 0.1em;
+}
+
+.active a{
+    color: white;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0% 0% 10% 5%;
+    background-color: rgb(254, 185, 95)
+}
+
+.picknicktafel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgb(254, 185, 95);
+    border-top-right-radius: 10px;
+    border: 10px solid rgb(219, 80, 74);
+    width: 50%;
+    padding: 0.5em 0 0 0.75em;
+}
+
+.picknicktafel h3{
+    font-size: 3em;
+    margin: 15px 0px;
+}
+.picknicktafel p:nth-of-type(1){
+    font-size: 1.75em;
+    margin: 0%;
+}
+
+.picknicktafel p{
+    font-size: 2.25em;
+}
+
+.GOKNOP {
+    background: rgb(237, 141, 17);
+    border-radius: 15px;
+    border: 5px solid rgb(219, 80, 74);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.GOKNOP p{
+    font-size: 2em;
+}
+
+.GOKNOP a{
+    text-decoration: none;
+    color: black;
+}
+
+strong{
+    font-size: 2em;
+}
+
+.Pijl {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 5% 40%;
+}
+
+.Jasperstuk{
+    background: rgb(254, 185, 95);
+    border: 10px solid rgb(219, 80, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 642px;
+    padding: 2,0%;
+}
+
+.Jasper {
+    padding-left: 0.5em;
+    font-size: 3.5em;
+    margin: 0.5em 0.5em 0em 0em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Quote {
+    font-style: italic;
+    font-size: 2em;
+    letter-spacing: 2px;
+    line-height: 50px;
+    padding: 0em 0.5em;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: darkorange;
+    height: 50px;
+    }
+
+footer span{
+    color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 40%;
+    font-size: 2em;
+}
+/* Hieronder komt Project */
+
+.Stadsgroen{
+    display: flex;
+    background-color: rgb(254, 185, 95);
+    border: 8px solid rgb(219, 80, 74);
+    font-size: 250%;
+    padding-left: 20px;
+}
+
+.Titel{
+    font-size: 3.5em;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0px 20px 10px;
+}
+
+p.Omschrijving{
+    font-size: 2.0em;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+p.Omschrijving :nth-of-type(1){
+    margin-left: 0px;
+}
+
+
+.Projectvoorbeeld p:nth-of-type(1){
+    font-size: 2em;
+    font-weight: 50;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.Projectvoorbeeld:nth-of-type(2),
+.Projectvoorbeeld:nth-of-type(3){
+    margin-top: 4em;
+}
+
+.Projectvoorbeeld:nth-of-type(3){
+    margin-bottom: 2em;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+
+/* Interview pagina */
+.Interviewpagina h4{
+    padding: 25px;
+    background-color: rgb(254, 185, 95);
+    border: 8px solid rgb(219, 80, 74);
+}
+
+.Interviewpagina p{
+    background: rgb(254, 185, 95);
+    border: 8px solid rgb(219, 80, 74);
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.Interviewpagina h3{
+    margin-bottom: 20px;
+}
+
+.Interviewpagina img{
+    width: 100%;
+}
